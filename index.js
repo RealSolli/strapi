@@ -10,6 +10,7 @@ async function fetchList() {
         }
     })
     const response = await resp.json()
+    console.log(response);
     for (let doc of response.data) {
         await showDocument(doc)
     }
