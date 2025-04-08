@@ -21,6 +21,8 @@ async function showDocument(doc) {
         <details>
             <summary>${(doc.Ingress)}</summary>
             <p>${doc.Innhold}</p>
+            <p>${doc.Dato}</p>
+            <p>${doc.Forfatter}</p>
             <img alt="${(doc.title)}" src="${doc.Bilde.formats.large.url}">
         </details>
     `
